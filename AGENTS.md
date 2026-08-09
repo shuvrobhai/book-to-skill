@@ -35,7 +35,10 @@ converter so generated skills match these preferences without re-asking.
 ## Maintenance notes
 
 - This repo is **slimmed for skill use** — docs/, tests/, and CI were removed on
-  purpose. Recovering them is possible via git history (`git log --diff-filter=D`).
+  purpose. The full docs/ site lives on the **`docs-archive`** branch
+  (`git checkout docs-archive` to browse it locally, or view it on GitHub under
+  the branch selector). Everything else is recoverable via git history
+  (`git log --diff-filter=D`).
 - Remotes: `origin` = upstream `virgiliojr94/book-to-skill` · `fork` = my fork.
   Push changes to `fork` (`git push fork master`); sync upstream via
   `git fetch origin && git merge origin/master`.
