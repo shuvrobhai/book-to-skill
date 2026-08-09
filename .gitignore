@@ -27,6 +27,11 @@ venv/
 # Generated skills staging
 generated-skill/
 
+# Lint/test caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
 # Local design specifications
 docs/superpowers/specs/
 
