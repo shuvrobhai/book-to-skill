@@ -8,6 +8,7 @@ Registry of skills generated from books/documents with this converter.
 | # | Skill slug | Source | Format | Depth | Location | Date |
 |---|-----------|--------|--------|-------|----------|------|
 | 1 | [`book-of-creating-skills`](https://github.com/shuvrobhai/book-to-skill/tree/main/../) | *The Complete Guide to Building Skills for Claude* (Anthropic) | PDF | reference | `~/.agents/skills/book-of-creating-skills/` | 2026-08-09 |
+| 2 | [`free-search-aggregator`](https://github.com/shuvrobhai/free-search-aggregator) | 14-provider web search engine (fork of vulcanusalex/free-search-aggregator) | code | — | `~/.agents/skills/free-search-aggregator/` | 2026-08-09 |
 
 ## How to add a skill here
 
