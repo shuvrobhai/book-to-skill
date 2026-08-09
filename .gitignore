@@ -13,6 +13,20 @@ build/
 # uv lockfile (not pinned for a library/tool; deps live in pyproject extras)
 uv.lock
 
+# Virtual environments (machine-specific; never commit)
+.venv/
+venv/
+
+# Personal book / document files
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+
+# Generated skills staging
+generated-skill/
+
 # Local design specifications
 docs/superpowers/specs/
 
